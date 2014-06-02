@@ -26,9 +26,7 @@ $(document).ready(function(e) {
 	
  document.addEventListener("deviceready",function(){
   $('#cam').tap(function(){
-    navigator.notification.vibrate(500);
-  });
-  $('#cam').tap(function(){
+    navigator.notification.vibrate(500); 
     navigator.notification.beep(2);
   });
  },false); //deviceready
