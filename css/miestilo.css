@@ -1,0 +1,28 @@
+/*Estilo Flotar*/
+ .miniatura
+  {
+   float:center;
+   width:110px;
+   height:90px;
+   margin:5px;
+   opacity:0.4;
+   
+  }
+ .segunda_linea  
+  {
+   clear:both;
+   margin-bottom:2px;
+  }
+ .miniatura:hover
+  {
+   opacity:1.0;
+   width:220px;
+   height:180px;
+   margin:10px;
+   
+  }
+ body
+  {
+   text-align:center;
+  }
+ 
